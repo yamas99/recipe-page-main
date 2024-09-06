@@ -1,0 +1,111 @@
+@font-face {
+	font-family: "Outfit";
+	src: url("/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: "Young Serif";
+	src: url("/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+h1, h2 {
+    font-family: "Young Serif";
+}
+
+body {
+    font-family: "Outfit";
+
+    background-color: #F4E5D7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 2rem 0 1rem 0;
+}
+
+h2:first-of-type {
+    padding-bottom: 0.6rem;
+}
+
+h2:not(:first-of-type) {
+    border-top: 1px solid lightgray;
+    margin: 1.5rem 0 0 0;
+    padding: 1.5rem 0 1rem 0;
+}
+
+h2, li::marker, .measurements {
+    color: #854632;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+p, li, td {
+    color: #5F574E;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+ul li
+{
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+ol li {
+    padding: 0 0 0.75rem 1rem;
+    line-height: 1.5rem;
+}
+
+li::marker {
+    font-weight: bold;
+}
+
+table {
+    table-layout: fixed;
+    width: 40rem;
+    border-collapse: collapse;
+}
+
+table td {
+    text-indent: 2.5rem;
+    border-bottom: 1px solid lightgray;
+    padding: 1rem 0 1rem 0;
+}
+
+.container {
+    width: 45rem;
+	background-color: white;
+
+    margin: 8rem 20rem;
+    border-radius: 1rem;
+
+    padding: 2.5rem;
+}
+
+.prep-time {
+    background-color: #FFF5FA;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.prep-time h3 {
+    color: #7B284F;
+}
